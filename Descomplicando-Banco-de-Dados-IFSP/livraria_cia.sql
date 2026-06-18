@@ -1,4 +1,5 @@
 use livraria_cia;
+
 /*
 CREATE TABLE clientes (
     id_cliente INT AUTO_INCREMENT PRIMARY KEY,
@@ -36,4 +37,8 @@ CREATE TABLE itens_pedido (
     FOREIGN KEY (pedido_id) REFERENCES pedidos(id_pedido),
     FOREIGN KEY (livro_id) REFERENCES livros(id_livro)
 );
+
+
+alter table pedidos add column valor_total decimal(10,2);
+
 */
