@@ -1,5 +1,7 @@
 CREATE DATABASE cinelog;
 
+use cinelog;
+
 CREATE TABLE pais (
 	id INT PRIMARY KEY AUTO_INCREMENT,
 	nome VARCHAR(80)
