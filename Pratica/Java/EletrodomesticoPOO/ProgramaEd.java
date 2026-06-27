@@ -16,5 +16,10 @@ public class ProgramaEd {
             aparelhoUsado.desligar();
             System.out.println();
         }
+
+        ControleSmart airFryersmart = (AirFryer) aparelhos[1];
+
+        airFryersmart.ligarPorWifi();
+        airFryersmart.desligarPorWifi();
     }
 }
